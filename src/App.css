@@ -1,0 +1,154 @@
+/* .App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.Sidebar {
+  min-height: 93vh;
+  height: 100%;
+  width: 300px;
+  background-color: #2F4050;
+}
+
+.SidebarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+
+}
+
+.SidebarList .row {
+  width: 100%;
+  height: 60px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.SidebarList .row:hover {
+  cursor: pointer;
+  background-color: #293846;
+}
+
+.row #icon {
+  flex: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title {
+  flex: 80%;
+}
+
+.SidebarList #active {
+  background-color: #293846;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+} */
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.Sidebar {
+  min-height: 93vh;
+  height: 100%;
+  width: 400px;
+  background-color: #2F4050;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  background-color: #293846;
+}
+
+.ProfileIcon {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProfileIcon svg {
+  fill: white;
+  height: 100px;
+  width: 100px;
+}
+
+.ProfileName {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.ProfileAge {
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.ProfileName,
+.ProfileAge {
+  text-align: center;
+}
+
+.SidebarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.SidebarList .row {
+  width: 100%;
+  height: 100px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.SidebarList .row:hover {
+  cursor: pointer;
+  background-color: #293846;
+  transform: translateX(50px);
+}
+
+.row #icon {
+  flex: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title {
+  flex: 80%;
+}
+
+.SidebarList #active {
+  background-color: #293846;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
